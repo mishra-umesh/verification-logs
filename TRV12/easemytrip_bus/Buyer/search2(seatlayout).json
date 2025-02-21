@@ -1,0 +1,96 @@
+{
+    "context": {
+        "location": {
+            "country": {
+                "code": "IND"
+            }
+        },
+        "domain": "ONDC:TRV12",
+        "timestamp": "2025-02-14T09:32:35.6850944Z",
+        "bap_id": "ondc.easemytrip.com/bus",
+        "transaction_id": "c44a8347-fd10-4754-9510-c5f8757732e0",
+        "message_id": "8fec3348-63b7-4db7-88fa-762b798d47fd",
+        "version": "2.0.0",
+        "action": "search",
+        "bap_uri": "https://ondc.easemytrip.com/busservice/api/Buyer/",
+        "ttl": "PT30S",
+        "bpp_id": "ondc.easemytrip.com/bus",
+        "bpp_uri": "https://ondc.easemytrip.com/bus"
+    },
+    "message": {
+        "intent": {
+            "fulfillment": {
+                "id": "4766881",
+                "stops": [
+                    {
+                        "type": "START",
+                        "location": {
+                            "descriptor": {
+                                "code": ""
+                            }
+                        },
+                        "time": {
+                            "label": "DATE_OF_JOURNEY",
+                            "timestamp": "2025-02-23T00:00:00"
+                        }
+                    },
+                    {
+                        "type": "END",
+                        "location": {
+                            "descriptor": {
+                                "code": ""
+                            }
+                        }
+                    }
+                ]
+            },
+            "provider": {
+                "id": "17"
+            },
+            "payment": {
+                "tags": [
+                    {
+                        "descriptor": {
+                            "code": "BUYER_FINDER_FEES"
+                        },
+                        "display": false,
+                        "list": [
+                            {
+                                "descriptor": {
+                                    "code": "BUYER_FINDER_FEES_PERCENTAGE"
+                                },
+                                "value": "1"
+                            },
+                            {
+                                "descriptor": {
+                                    "code": "BUYER_FINDER_FEES_TYPE"
+                                },
+                                "value": "percent"
+                            }
+                        ]
+                    },
+                    {
+                        "descriptor": {
+                            "code": "SETTLEMENT_TERMS"
+                        },
+                        "display": false,
+                        "list": [
+                            {
+                                "descriptor": {
+                                    "code": "DELAY_INTEREST"
+                                },
+                                "value": "2.5"
+                            },
+                            {
+                                "descriptor": {
+                                    "code": "STATIC_TERMS"
+                                },
+                                "value": "https://api.example-bap.com/booking/terms"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

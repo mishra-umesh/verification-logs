@@ -1,0 +1,860 @@
+{
+  "context": {
+    "location": null,
+    "domain": "ONDC:TRV11",
+    "timestamp": "2025-02-14T09:32:30.7357729Z",
+    "bap_id": "ondc.easemytrip.com/bus",
+    "bap_uri": "https://ondc.easemytrip.com/busservice/api/Buyer/",
+    "bpp_id": "ondc.easemytrip.com/bus",
+    "bpp_uri": "https://ondc.easemytrip.com/bus",
+    "transaction_id": "c44a8347-fd10-4754-9510-c5f8757732e0",
+    "message_id": "54a45b9f-4cbf-41a2-9f55-9846f05348f5",
+    "version": "2.0.0",
+    "action": "on_search",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "catalog": {
+      "descriptor": {
+        "name": "Easemytrip.com",
+        "images": null,
+        "code": null
+      },
+      "providers": [
+        {
+          "id": "17",
+          "descriptor": {
+            "name": "Yolo Bus",
+            "images": [
+              {
+                "url": "URL_HERE"
+              }
+            ],
+            "code": null
+          },
+          "fulfillments": [
+            {
+              "id": "4766881",
+              "type": "Trip",
+              "stops": [
+                {
+                  "id": "S1",
+                  "type": "START",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Bangalore",
+                      "images": null,
+                      "code": "std:080"
+                    },
+                    "gps": null
+                  },
+                  "time": null
+                },
+                {
+                  "id": "S2",
+                  "type": "PICKUP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Kalasipalayam",
+                      "images": null,
+                      "code": "1475"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "17:45",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S3",
+                  "type": "PICKUP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Majestic",
+                      "images": null,
+                      "code": "463"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "18:00",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S4",
+                  "type": "PICKUP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Anand Rao Circle",
+                      "images": null,
+                      "code": "464"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "18:05",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S5",
+                  "type": "PICKUP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Shanti Nagar",
+                      "images": null,
+                      "code": "674"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "18:25",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S6",
+                  "type": "PICKUP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Dairy Circle",
+                      "images": null,
+                      "code": "867"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "18:45",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S7",
+                  "type": "PICKUP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "St Johns Hospital Bus stop",
+                      "images": null,
+                      "code": "895"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "18:55",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S8",
+                  "type": "PICKUP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Madiwala",
+                      "images": null,
+                      "code": "1476"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "19:05",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S9",
+                  "type": "PICKUP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Silk board",
+                      "images": null,
+                      "code": "994"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "19:14",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S10",
+                  "type": "PICKUP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "HSR Layout",
+                      "images": null,
+                      "code": "475"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "19:23",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S11",
+                  "type": "PICKUP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Sarjapur signal",
+                      "images": null,
+                      "code": "573"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "19:25",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S12",
+                  "type": "PICKUP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Bellandur",
+                      "images": null,
+                      "code": "474"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "19:27",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S13",
+                  "type": "PICKUP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Marathahalli Multiplex",
+                      "images": null,
+                      "code": "472"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "19:35",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S14",
+                  "type": "PICKUP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Marathahalli",
+                      "images": null,
+                      "code": "471"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "19:45",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S15",
+                  "type": "PICKUP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Mahadev Pura",
+                      "images": null,
+                      "code": "470"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "19:50",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S16",
+                  "type": "PICKUP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "KR Puram Railway Station",
+                      "images": null,
+                      "code": "469"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "19:55",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S17",
+                  "type": "PICKUP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Tin Factory",
+                      "images": null,
+                      "code": "468"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "20:00",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S18",
+                  "type": "PICKUP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Rama murthy Nagar",
+                      "images": null,
+                      "code": "504"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "20:10",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S19",
+                  "type": "PICKUP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Babusapalya",
+                      "images": null,
+                      "code": "782"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "20:20",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S20",
+                  "type": "PICKUP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "kalyan nagar",
+                      "images": null,
+                      "code": "505"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "20:30",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S21",
+                  "type": "PICKUP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Nagvara",
+                      "images": null,
+                      "code": "783"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "20:35",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S22",
+                  "type": "PICKUP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Hebbal",
+                      "images": null,
+                      "code": "1439"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "20:40",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S23",
+                  "type": "PICKUP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Yelahanka",
+                      "images": null,
+                      "code": "1440"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "20:49",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S24",
+                  "type": "PICKUP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "BIAL toll gate",
+                      "images": null,
+                      "code": "512"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "21:04",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S25",
+                  "type": "END",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Hyderabad",
+                      "images": null,
+                      "code": "std:040"
+                    },
+                    "gps": null
+                  },
+                  "time": null
+                },
+                {
+                  "id": "S26",
+                  "type": "DROP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Jadcherla X road",
+                      "images": null,
+                      "code": "531"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "05:37",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S27",
+                  "type": "DROP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "shamshabad",
+                      "images": null,
+                      "code": "513"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "06:38",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S28",
+                  "type": "DROP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Aramghar",
+                      "images": null,
+                      "code": "514"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "06:53",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S29",
+                  "type": "DROP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Mehdipatnam",
+                      "images": null,
+                      "code": "515"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "07:14",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S30",
+                  "type": "DROP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Lakdikapul",
+                      "images": null,
+                      "code": "516"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "07:19",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S31",
+                  "type": "DROP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "panjagutta",
+                      "images": null,
+                      "code": "517"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "07:24",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S32",
+                  "type": "DROP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Ameerpet",
+                      "images": null,
+                      "code": "518"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "07:29",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S33",
+                  "type": "DROP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "SR Nagar",
+                      "images": null,
+                      "code": "519"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "07:33",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S34",
+                  "type": "DROP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Erragadda",
+                      "images": null,
+                      "code": "520"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "07:38",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S35",
+                  "type": "DROP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Bharath Nagar",
+                      "images": null,
+                      "code": "521"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "07:47",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S36",
+                  "type": "DROP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "kukatpally",
+                      "images": null,
+                      "code": "522"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "07:51",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S37",
+                  "type": "DROP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "KPHB",
+                      "images": null,
+                      "code": "523"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "07:56",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S38",
+                  "type": "DROP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Nizampet",
+                      "images": null,
+                      "code": "524"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "08:01",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S39",
+                  "type": "DROP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Miyapur",
+                      "images": null,
+                      "code": "525"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "08:06",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                },
+                {
+                  "id": "S40",
+                  "type": "DROP",
+                  "location": {
+                    "country": null,
+                    "city": null,
+                    "descriptor": {
+                      "name": "Miyapur Allwyn X Road",
+                      "images": null,
+                      "code": "526"
+                    },
+                    "gps": "GPS_COORDINATES_HERE"
+                  },
+                  "time": {
+                    "label": "08:11",
+                    "timestamp": "2025-02-14T15:02:31.4351062+05:30"
+                  }
+                }
+              ],
+              "vehicle": {
+                "category": "BUS"
+              },
+              "tags": [
+                {
+                  "descriptor": {
+                    "name": null,
+                    "images": null,
+                    "code": "VEHICLE_AVAILABILITY"
+                  },
+                  "display": true,
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": null,
+                        "images": null,
+                        "code": "AVAILABLE_SEATS"
+                      },
+                      "value": "35"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": {
+                    "name": null,
+                    "images": null,
+                    "code": "VEHICLE_AMENITIES"
+                  },
+                  "display": true,
+                  "list": [
+                    {
+                      "descriptor": null,
+                      "value": "AC"
+                    },
+                    {
+                      "descriptor": null,
+                      "value": "First Aid Box"
+                    },
+                    {
+                      "descriptor": null,
+                      "value": "Water Bottle"
+                    },
+                    {
+                      "descriptor": null,
+                      "value": "GPS"
+                    },
+                    {
+                      "descriptor": null,
+                      "value": "Fire Extinguisher"
+                    },
+                    {
+                      "descriptor": null,
+                      "value": "Emergency exit"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "id": "I1",
+              "descriptor": {
+                "name": "Seater Ticket",
+                "images": null,
+                "code": "SEAT"
+              },
+              "price": {
+                "minimum_value": "1679",
+                "maximum_value": "2549"
+              },
+              "fulfillment_ids": [
+                "4766881"
+              ]
+            }
+          ],
+          "payments": [
+            {
+              "collected_by": "BPP",
+              "tags": [
+                {
+                  "descriptor": {
+                    "name": null,
+                    "images": null,
+                    "code": "BUYER_FINDER_FEES"
+                  },
+                  "display": false,
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": null,
+                        "images": null,
+                        "code": "BUYER_FINDER_FEES_PERCENTAGE"
+                      },
+                      "value": "PERCENTAGE_VALUE_HERE"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

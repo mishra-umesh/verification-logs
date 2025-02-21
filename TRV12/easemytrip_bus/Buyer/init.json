@@ -1,0 +1,168 @@
+{
+    "context": {
+        "location": {
+            "country": {
+                "code": "IND"
+            }
+        },
+        "domain": "ONDC:TRV12",
+        "timestamp": "2025-02-14T09:33:08.0937408Z",
+        "bap_id": "ondc.easemytrip.com/bus",
+        "bap_uri": "https://ondc.easemytrip.com/busservice/api/Buyer/",
+        "bpp_id": "ondc.easemytrip.com/bus",
+        "bpp_uri": "https://ondc.easemytrip.com/bus",
+        "transaction_id": "c44a8347-fd10-4754-9510-c5f8757732e0",
+        "message_id": "8f6767f4-0e8d-4bec-9448-0b740056d739",
+        "version": "2.0.0",
+        "action": "init",
+        "ttl": "PT30S"
+    },
+    "message": {
+        "order": {
+            "items": [
+                {
+                    "quantity": {
+                        "selected": {
+                            "count": 1
+                        }
+                    }
+                }
+            ],
+            "fulfillments": [
+                {
+                    "stops": [
+                        {
+                            "id": "897",
+                            "type": "PICKUP"
+                        },
+                        {
+                            "id": "501",
+                            "type": "DROP"
+                        }
+                    ],
+                    "customer": {
+                        "person": {
+                            "name": "Shekhar Bhatt",
+                            "age": "24"
+                        },
+                        "contact": {
+                            "phone": "8077118609"
+                        }
+                    },
+                    "tags": [
+                        {
+                            "descriptor": {
+                                "code": "SEAT_GRID"
+                            },
+                            "list": [
+                                {
+                                    "descriptor": {
+                                        "code": "NUMBER"
+                                    },
+                                    "value": "SU6"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "Fare"
+                                    },
+                                    "value": "0"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "TYPE"
+                                    }
+                                }
+                            ],
+                            "display": false
+                        }
+                    ]
+                }
+            ],
+            "payments": [
+                {
+                    "collected_by": "BAP",
+                    "status": "NOT-PAID",
+                    "type": "",
+                    "tags": [
+                        {
+                            "descriptor": {
+                                "code": "BUYER_FINDER_FEES"
+                            },
+                            "list": [
+                                {
+                                    "descriptor": {
+                                        "code": "BUYER_FINDER_FEES_PERCENTAGE"
+                                    },
+                                    "value": "1"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "BUYER_FINDER_FEES_TYPE"
+                                    },
+                                    "value": "percent"
+                                }
+                            ],
+                            "display": false
+                        },
+                        {
+                            "descriptor": {
+                                "code": "SETTLEMENT_TERMS"
+                            },
+                            "list": [
+                                {
+                                    "descriptor": {
+                                        "code": "SETTLEMENT_WINDOW"
+                                    },
+                                    "value": "PT60M"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "SETTLEMENT_BASIS"
+                                    },
+                                    "value": "Delivery"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "SETTLEMENT_TYPE"
+                                    },
+                                    "value": "upi"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "MANDATORY_ARBITRATION"
+                                    },
+                                    "value": "true"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "COURT_JURISDICTION"
+                                    },
+                                    "value": ""
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "DELAY_INTEREST"
+                                    },
+                                    "value": "2.5"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "STATIC_TERMS"
+                                    },
+                                    "value": "https://www.abc.com/settlement-terms/"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "SETTLEMENT_AMOUNT"
+                                    },
+                                    "value": "0"
+                                }
+                            ],
+                            "display": false
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "context": {
+        "location": {
+            "country": {
+                "code": "IND"
+            }
+        },
+        "domain": "ONDC:TRV12",
+        "timestamp": "2025-02-14T09:32:51.057796Z",
+        "bap_id": "ondc.easemytrip.com/bus",
+        "bap_uri": "https://ondc.easemytrip.com/busservice/api/Buyer/",
+        "bpp_id": "ondc.easemytrip.com/bus",
+        "bpp_uri": "https://ondc.easemytrip.com/bus",
+        "transaction_id": "c44a8347-fd10-4754-9510-c5f8757732e0",
+        "message_id": "18bdcd7a-0cb7-4ce7-a8dc-78926e5d6a51",
+        "version": "2.0.0",
+        "action": "select",
+        "ttl": "PT30S"
+    },
+    "message": {
+        "order": {
+            "items": [
+                {
+                    "id": "SU6",
+                    "quantity": {
+                        "selected": {
+                            "count": 1
+                        }
+                    }
+                }
+            ],
+            "provider": {
+                "id": "17"
+            },
+            "fulfillments": [
+                {
+                    "id": "1290",
+                    "stops": [
+                        {
+                            "id": "1475",
+                            "type": "PICKUP"
+                        },
+                        {
+                            "id": "531",
+                            "type": "DROP"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "descriptor": {
+                                "code": "SEAT_GRID"
+                            },
+                            "list": [
+                                {
+                                    "descriptor": {
+                                        "code": "NUMBER"
+                                    },
+                                    "value": "SU6"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "SELECTED"
+                                    },
+                                    "value": "true"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "ITEM_ID"
+                                    },
+                                    "value": "SU6"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "Fare"
+                                    },
+                                    "value": "2256"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
