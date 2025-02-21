@@ -1,0 +1,1695 @@
+{
+    "context": {
+        "location": null,
+        "domain": "ONDC:TRV12",
+        "timestamp": "2025-02-14T15:02:37.0461647+05:30",
+        "bap_id": "ondc.easemytrip.com/bus",
+        "bap_uri": "https://ondc.easemytrip.com/busservice/api/Buyer/",
+        "bpp_id": "ondc.easemytrip.com/bus",
+        "bpp_uri": "https://ondc.easemytrip.com/busservice/api/seller/",
+        "transaction_id": "c44a8347-fd10-4754-9510-c5f8757732e0",
+        "message_id": "8fec3348-63b7-4db7-88fa-762b798d47fd",
+        "version": "1.0.0",
+        "action": "on_search",
+        "ttl": "PT30M"
+    },
+    "message": {
+        "catalog": {
+            "descriptor": {
+                "name": null,
+                "images": null,
+                "code": null
+            },
+            "providers": [
+                {
+                    "id": "17",
+                    "descriptor": {
+                        "name": null,
+                        "images": null,
+                        "code": null
+                    },
+                    "categories": null,
+                    "items": [
+                        {
+                            "id": "SL6|a4DXclLiE6MExHrj/Bbqce5SloO0Hsm0z9o8YZsNSCJSKtDNhMQMcOkqZEEZCiYF",
+                            "descriptor": {
+                                "name": "SL6",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 12
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "SL5|4vK1eYTO9sp4LZBiSdhA6+5SloO0Hsm02+51Fd0E8KdSKtDNhMQMcOkqZEEZCiYF",
+                            "descriptor": {
+                                "name": "SL5",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 10
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "SL4|4vK1eYTO9sp4LZBiSdhA6+5SloO0Hsm02+51Fd0E8KdSKtDNhMQMcOkqZEEZCiYF",
+                            "descriptor": {
+                                "name": "SL4",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 8
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "SL3|4vK1eYTO9sp4LZBiSdhA6+5SloO0Hsm02+51Fd0E8KdSKtDNhMQMcOkqZEEZCiYF",
+                            "descriptor": {
+                                "name": "SL3",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 6
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "SL2|4vK1eYTO9sp4LZBiSdhA6+5SloO0Hsm02+51Fd0E8KdSKtDNhMQMcOkqZEEZCiYF",
+                            "descriptor": {
+                                "name": "SL2",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 4
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "SL1|4vK1eYTO9sp4LZBiSdhA6+5SloO0Hsm02+51Fd0E8KdSKtDNhMQMcOkqZEEZCiYF",
+                            "descriptor": {
+                                "name": "SL1",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 2
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "DL11|YpM/4A/E008MzFoRfdXQW+5SloO0Hsm0JSjEOvDzFeNSKtDNhMQMcOkqZEEZCiYF",
+                            "descriptor": {
+                                "name": "DL11",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 12
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "DL9|YpM/4A/E008MzFoRfdXQW+5SloO0Hsm0JSjEOvDzFeNSKtDNhMQMcOkqZEEZCiYF",
+                            "descriptor": {
+                                "name": "DL9",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 10
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "DL7|a4DXclLiE6MExHrj/Bbqce5SloO0Hsm0z9o8YZsNSCJSKtDNhMQMcOkqZEEZCiYF",
+                            "descriptor": {
+                                "name": "DL7",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 8
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "DL5|a4DXclLiE6MExHrj/Bbqce5SloO0Hsm0z9o8YZsNSCJSKtDNhMQMcOkqZEEZCiYF",
+                            "descriptor": {
+                                "name": "DL5",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 6
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "DL3|a4DXclLiE6MExHrj/Bbqce5SloO0Hsm0z9o8YZsNSCJSKtDNhMQMcOkqZEEZCiYF",
+                            "descriptor": {
+                                "name": "DL3",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 4
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "DL1|YpM/4A/E008MzFoRfdXQW+5SloO0Hsm0JSjEOvDzFeNSKtDNhMQMcOkqZEEZCiYF",
+                            "descriptor": {
+                                "name": "DL1",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 2
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "DL12|YpM/4A/E008MzFoRfdXQW+5SloO0Hsm0JSjEOvDzFeNSKtDNhMQMcOkqZEEZCiYF",
+                            "descriptor": {
+                                "name": "DL12",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 12
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "DL10|YpM/4A/E008MzFoRfdXQW+5SloO0Hsm0JSjEOvDzFeNSKtDNhMQMcOkqZEEZCiYF",
+                            "descriptor": {
+                                "name": "DL10",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 10
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "DL8|a4DXclLiE6MExHrj/Bbqce5SloO0Hsm0z9o8YZsNSCJSKtDNhMQMcOkqZEEZCiYF",
+                            "descriptor": {
+                                "name": "DL8",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 8
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "DL6|a4DXclLiE6MExHrj/Bbqce5SloO0Hsm0z9o8YZsNSCJSKtDNhMQMcOkqZEEZCiYF",
+                            "descriptor": {
+                                "name": "DL6",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 6
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "DL4|a4DXclLiE6MExHrj/Bbqce5SloO0Hsm0z9o8YZsNSCJSKtDNhMQMcOkqZEEZCiYF",
+                            "descriptor": {
+                                "name": "DL4",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 4
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "DL2|YpM/4A/E008MzFoRfdXQW+5SloO0Hsm0JSjEOvDzFeNSKtDNhMQMcOkqZEEZCiYF",
+                            "descriptor": {
+                                "name": "DL2",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 2
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "SU6|a4DXclLiE6MExHrj/Bbqce5SloO0Hsm0z9o8YZsNSCJSKtDNhMQMcOkqZEEZCiYF",
+                            "descriptor": {
+                                "name": "SU6",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 11
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "SU5|sz3/BqHMerTvsvOhB4tYFe+y86EHi1gV77LzoQeLWBWxvogH+xy4Tw==",
+                            "descriptor": {
+                                "name": "SU5",
+                                "images": null,
+                                "code": "booked_sleeper"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 0
+                                },
+                                "maximum": {
+                                    "count": 9
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "SU4|KmA8/PUusJqvCNbHx+sMl+5SloO0Hsm0jlhK8NrFG9xSKtDNhMQMcOkqZEEZCiYF",
+                            "descriptor": {
+                                "name": "SU4",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 7
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "SU3|KmA8/PUusJqvCNbHx+sMl+5SloO0Hsm0jlhK8NrFG9xSKtDNhMQMcOkqZEEZCiYF",
+                            "descriptor": {
+                                "name": "SU3",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 5
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "SU2|KmA8/PUusJqvCNbHx+sMl+5SloO0Hsm0jlhK8NrFG9xSKtDNhMQMcOkqZEEZCiYF",
+                            "descriptor": {
+                                "name": "SU2",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 3
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "SU1|KmA8/PUusJqvCNbHx+sMl+5SloO0Hsm0jlhK8NrFG9xSKtDNhMQMcOkqZEEZCiYF",
+                            "descriptor": {
+                                "name": "SU1",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 1
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "DU11|+rCJb2rrOYLxQoDwj5Ks+e5SloO0Hsm0effqmouKzSAY12Z2A6VrBwWJWD/1P532",
+                            "descriptor": {
+                                "name": "DU11",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 11
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "DU9|Ij+ypfg8NjK0vqC4jS7mI+5SloO0Hsm0WxWvGsC8vQUY12Z2A6VrBwWJWD/1P532",
+                            "descriptor": {
+                                "name": "DU9",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 9
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "DU7|/i2giTo52jv5IotnNDztHO5SloO0Hsm0N0au5IG7xncY12Z2A6VrBwWJWD/1P532",
+                            "descriptor": {
+                                "name": "DU7",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 7
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "DU5|/i2giTo52jv5IotnNDztHO5SloO0Hsm0N0au5IG7xncY12Z2A6VrBwWJWD/1P532",
+                            "descriptor": {
+                                "name": "DU5",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 5
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "DU3|/i2giTo52jv5IotnNDztHO5SloO0Hsm0N0au5IG7xncY12Z2A6VrBwWJWD/1P532",
+                            "descriptor": {
+                                "name": "DU3",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 3
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "DU1|Ij+ypfg8NjK0vqC4jS7mI+5SloO0Hsm0WxWvGsC8vQUY12Z2A6VrBwWJWD/1P532",
+                            "descriptor": {
+                                "name": "DU1",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 1
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "DU12|+rCJb2rrOYLxQoDwj5Ks+e5SloO0Hsm0effqmouKzSAY12Z2A6VrBwWJWD/1P532",
+                            "descriptor": {
+                                "name": "DU12",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 11
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "DU10|Ij+ypfg8NjK0vqC4jS7mI+5SloO0Hsm0WxWvGsC8vQUY12Z2A6VrBwWJWD/1P532",
+                            "descriptor": {
+                                "name": "DU10",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 9
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "DU8|/i2giTo52jv5IotnNDztHO5SloO0Hsm0N0au5IG7xncY12Z2A6VrBwWJWD/1P532",
+                            "descriptor": {
+                                "name": "DU8",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 7
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "DU6|/i2giTo52jv5IotnNDztHO5SloO0Hsm0N0au5IG7xncY12Z2A6VrBwWJWD/1P532",
+                            "descriptor": {
+                                "name": "DU6",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 5
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "DU4|/i2giTo52jv5IotnNDztHO5SloO0Hsm0N0au5IG7xncY12Z2A6VrBwWJWD/1P532",
+                            "descriptor": {
+                                "name": "DU4",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 3
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        },
+                        {
+                            "id": "DU2|Ij+ypfg8NjK0vqC4jS7mI+5SloO0Hsm0WxWvGsC8vQUY12Z2A6VrBwWJWD/1P532",
+                            "descriptor": {
+                                "name": "DU2",
+                                "images": null,
+                                "code": "sleeper_normal"
+                            },
+                            "price": {
+                                "minimum_value": null,
+                                "maximum_value": null
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": 1
+                                },
+                                "maximum": {
+                                    "count": 1
+                                }
+                            },
+                            "fulfillment_ids": [
+                                "4766881"
+                            ],
+                            "category_ids": [
+                                "SeatCategory"
+                            ]
+                        }
+                    ],
+                    "fulfillments": [
+                        {
+                            "id": "4766881",
+                            "type": "seat",
+                            "stops": [
+                                {
+                                    "id": "1475",
+                                    "type": "PICKUP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Kalasipalayam"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "komitla translines office Infront of Maharaja Statue,komitla translines office Infront of  Maharaja"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T17:45:00"
+                                    }
+                                },
+                                {
+                                    "id": "463",
+                                    "type": "PICKUP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Majestic"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "Hotel Mayur Complex, Opposite to Bus Stand,Hotel Mayur Complex, Opposite to Bus Stand"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T18:00:00"
+                                    }
+                                },
+                                {
+                                    "id": "464",
+                                    "type": "PICKUP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Anand Rao Circle"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "Opposite to Congress Bhawan Bus Stop,Opposite to Congress Bhawan Bus Stop"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T18:05:00"
+                                    }
+                                },
+                                {
+                                    "id": "674",
+                                    "type": "PICKUP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Shanti Nagar"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "Infront of Take-a-break, Siddaih Road,Infront of Take-a-break, Siddaih Road"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T18:25:00"
+                                    }
+                                },
+                                {
+                                    "id": "867",
+                                    "type": "PICKUP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Dairy Circle"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "dairy circle,Opp to Crist College"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T18:45:00"
+                                    }
+                                },
+                                {
+                                    "id": "895",
+                                    "type": "PICKUP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "St Johns Hospital Bus stop"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "St Johns Hospital Bus stop,St Johns Hospital Bus stop"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T18:55:00"
+                                    }
+                                },
+                                {
+                                    "id": "1476",
+                                    "type": "PICKUP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Madiwala"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "Madiwala Police Station,Madiwala Police Station"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T19:05:00"
+                                    }
+                                },
+                                {
+                                    "id": "994",
+                                    "type": "PICKUP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Silk board"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "(Infront of skoda show room towards marathahalli),(Infront of skoda show room towards marathahalli)"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T19:14:00"
+                                    }
+                                },
+                                {
+                                    "id": "475",
+                                    "type": "PICKUP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "HSR Layout"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "Agra anjaneyar Temple,Agra anjaneyar Temple"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T19:23:00"
+                                    }
+                                },
+                                {
+                                    "id": "573",
+                                    "type": "PICKUP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Sarjapur signal"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "sarjapur,Opp manipal hospital towards bellandur"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T19:25:00"
+                                    }
+                                },
+                                {
+                                    "id": "474",
+                                    "type": "PICKUP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Bellandur"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "Near Kanti Sweet Shop,Near Kanti Sweet Shop"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T19:27:00"
+                                    }
+                                },
+                                {
+                                    "id": "472",
+                                    "type": "PICKUP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Marathahalli Multiplex"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "Marathalli multiplex,Infront of Innovative Multiplex Mart"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T19:35:00"
+                                    }
+                                },
+                                {
+                                    "id": "471",
+                                    "type": "PICKUP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Marathahalli"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "Infront of Kalamandir,Infront of Kallamandir"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T19:45:00"
+                                    }
+                                },
+                                {
+                                    "id": "470",
+                                    "type": "PICKUP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Mahadev Pura"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "End of the flyover,End of the flyover"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T19:50:00"
+                                    }
+                                },
+                                {
+                                    "id": "469",
+                                    "type": "PICKUP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "KR Puram Railway Station"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "Under Cable Bridge,Under the Bridge towards Tin factory"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T19:55:00"
+                                    }
+                                },
+                                {
+                                    "id": "468",
+                                    "type": "PICKUP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Tin Factory"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "Infront of Bharat petrol bunk,Infront of Bharat Petrol Bunk"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T20:00:00"
+                                    }
+                                },
+                                {
+                                    "id": "504",
+                                    "type": "PICKUP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Rama murthy Nagar"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "Ramamurthy nagar,Under  NGR skywalk towards hebbal"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T20:10:00"
+                                    }
+                                },
+                                {
+                                    "id": "782",
+                                    "type": "PICKUP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Babusapalya"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "Babusapalya Bus Stop, Opp Ganesha Temple,Babusapalya Bus Stop, Opp Ganesha Temple"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T20:20:00"
+                                    }
+                                },
+                                {
+                                    "id": "505",
+                                    "type": "PICKUP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "kalyan nagar"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "kalyan nagar,busstop towards hebbal"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T20:30:00"
+                                    }
+                                },
+                                {
+                                    "id": "783",
+                                    "type": "PICKUP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Nagvara"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "opp. Manyatha Tech park Bus Stop,opp. Manyatha Tech park Bus Stop"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T20:35:00"
+                                    }
+                                },
+                                {
+                                    "id": "1439",
+                                    "type": "PICKUP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Hebbal"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "Hebbal,new bus stop Allalsandra,opp skoda showroom towards CCD yelahanka"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T20:40:00"
+                                    }
+                                },
+                                {
+                                    "id": "1440",
+                                    "type": "PICKUP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Yelahanka"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "New bus stop Allalsandra,Opp skoda showroom , towards CCD, yelahanka"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T20:49:00"
+                                    }
+                                },
+                                {
+                                    "id": "512",
+                                    "type": "PICKUP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "BIAL toll gate"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "BIAL toll gate,Near BIAL toll gate"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T21:04:00"
+                                    }
+                                },
+                                {
+                                    "id": "531",
+                                    "type": "DROP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Jadcherla X road"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "Jadcherla X road"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T05:37:00"
+                                    }
+                                },
+                                {
+                                    "id": "513",
+                                    "type": "DROP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "shamshabad"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "shamshabad"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T06:38:00"
+                                    }
+                                },
+                                {
+                                    "id": "514",
+                                    "type": "DROP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Aramghar"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "Aramghar"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T06:53:00"
+                                    }
+                                },
+                                {
+                                    "id": "515",
+                                    "type": "DROP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Mehdipatnam"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "Mehdipatnam"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T07:14:00"
+                                    }
+                                },
+                                {
+                                    "id": "516",
+                                    "type": "DROP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Lakdikapul"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "Lakdikapul"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T07:19:00"
+                                    }
+                                },
+                                {
+                                    "id": "517",
+                                    "type": "DROP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "panjagutta"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "panjagutta"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T07:24:00"
+                                    }
+                                },
+                                {
+                                    "id": "518",
+                                    "type": "DROP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Ameerpet"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "Ameerpet"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T07:29:00"
+                                    }
+                                },
+                                {
+                                    "id": "519",
+                                    "type": "DROP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "SR Nagar"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "SR Nagar"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T07:33:00"
+                                    }
+                                },
+                                {
+                                    "id": "520",
+                                    "type": "DROP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Erragadda"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "Erragadda"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T07:38:00"
+                                    }
+                                },
+                                {
+                                    "id": "521",
+                                    "type": "DROP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Bharath Nagar"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "Bharath Nagar"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T07:47:00"
+                                    }
+                                },
+                                {
+                                    "id": "522",
+                                    "type": "DROP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "kukatpally"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "kukatpally"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T07:51:00"
+                                    }
+                                },
+                                {
+                                    "id": "523",
+                                    "type": "DROP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "KPHB"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "KPHB"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T07:56:00"
+                                    }
+                                },
+                                {
+                                    "id": "524",
+                                    "type": "DROP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Nizampet"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "Nizampet"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T08:01:00"
+                                    }
+                                },
+                                {
+                                    "id": "525",
+                                    "type": "DROP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Miyapur"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "Miyapur"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T08:06:00"
+                                    }
+                                },
+                                {
+                                    "id": "526",
+                                    "type": "DROP",
+                                    "location": {
+                                        "country": {
+                                            "code": null
+                                        },
+                                        "city": {
+                                            "code": "Miyapur Allwyn X Road"
+                                        },
+                                        "descriptor": null,
+                                        "gps": "Miyapur Allwyn X Road"
+                                    },
+                                    "time": {
+                                        "label": null,
+                                        "timestamp": "2025-02-14T08:11:00"
+                                    }
+                                }
+                            ],
+                            "vehicle": {
+                                "category": null
+                            },
+                            "tags": []
+                        }
+                    ],
+                    "payments": [
+                        {
+                            "collected_by": "buyer",
+                            "tags": [
+                                {
+                                    "descriptor": {
+                                        "name": "Payment Method",
+                                        "images": null,
+                                        "code": null
+                                    },
+                                    "display": true,
+                                    "list": [
+                                        {
+                                            "descriptor": {
+                                                "name": "Credit Card",
+                                                "images": null,
+                                                "code": null
+                                            },
+                                            "value": "Yes"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

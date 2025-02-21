@@ -1,0 +1,238 @@
+{
+    "context": {
+        "location": {
+            "country": {
+                "code": "IND"
+            },
+            "descriptor": {
+                "name": "",
+                "code": "",
+                "images": null
+            },
+            "gps": "0, 0"
+        },
+        "domain": "ONDC:TRV11",
+        "timestamp": "2025-02-14T09:33:09.209872Z",
+        "bap_id": "ondc.easemytrip.com/bus",
+        "bap_uri": "https://ondc.easemytrip.com/busservice/api/Buyer/",
+        "bpp_id": "ondc.easemytrip.com/bus",
+        "bpp_uri": "https://ondc.easemytrip.com/bus",
+        "transaction_id": "c44a8347-fd10-4754-9510-c5f8757732e0",
+        "message_id": "8f6767f4-0e8d-4bec-9448-0b740056d739",
+        "version": "2.0.0",
+        "action": "on_init",
+        "ttl": "PT30S"
+    },
+    "message": {
+        "order": {
+            "items": [
+                {
+                    "id": null,
+                    "descriptor": null,
+                    "price": null,
+                    "quantity": {
+                        "selected": {
+                            "count": 1
+                        }
+                    },
+                    "fulfillment_ids": null,
+                    "category_ids": null
+                }
+            ],
+            "provider": {
+                "id": "17",
+                "descriptor": {
+                    "name": "YOLO BUS",
+                    "code": null,
+                    "images": [
+                        {
+                            "url": "https://operator1.com/logos/logo.ico"
+                        }
+                    ]
+                }
+            },
+            "fulfillments": [
+                {
+                    "id": null,
+                    "type": null,
+                    "stops": [
+                        {
+                            "id": "897",
+                            "type": "PICKUP",
+                            "location": null,
+                            "time": null
+                        },
+                        {
+                            "id": "501",
+                            "type": "DROP",
+                            "location": null,
+                            "time": null
+                        }
+                    ],
+                    "customer": null,
+                    "vehicle": null,
+                    "tags": [
+                        {
+                            "descriptor": {
+                                "name": null,
+                                "code": "SEAT_GRID",
+                                "images": null
+                            },
+                            "list": [
+                                {
+                                    "descriptor": {
+                                        "name": null,
+                                        "code": "NUMBER",
+                                        "images": null
+                                    },
+                                    "value": "SU6"
+                                },
+                                {
+                                    "descriptor": {
+                                        "name": null,
+                                        "code": "Fare",
+                                        "images": null
+                                    },
+                                    "value": "0"
+                                },
+                                {
+                                    "descriptor": {
+                                        "name": null,
+                                        "code": "TYPE",
+                                        "images": null
+                                    },
+                                    "value": null
+                                }
+                            ],
+                            "display": false
+                        }
+                    ]
+                },
+                {
+                    "id": "FT1",
+                    "type": "TICKET",
+                    "stops": null,
+                    "customer": {
+                        "person": {
+                            "name": "Mr Shekhar Bhatt",
+                            "age": "24",
+                            "gender": "MALE"
+                        },
+                        "contact": {
+                            "phone": "8077118609"
+                        }
+                    },
+                    "vehicle": null,
+                    "tags": [
+                        {
+                            "descriptor": {
+                                "name": null,
+                                "code": "SEAT_GRID",
+                                "images": null
+                            },
+                            "list": [
+                                {
+                                    "descriptor": {
+                                        "name": null,
+                                        "code": "NUMBER",
+                                        "images": null
+                                    },
+                                    "value": "SU6"
+                                },
+                                {
+                                    "descriptor": {
+                                        "name": null,
+                                        "code": "SEAT_PRICE",
+                                        "images": null
+                                    },
+                                    "value": "2256"
+                                },
+                                {
+                                    "descriptor": {
+                                        "name": null,
+                                        "code": "RESTRICTED_GENDER",
+                                        "images": null
+                                    },
+                                    "value": "MALE"
+                                }
+                            ],
+                            "display": false
+                        }
+                    ]
+                }
+            ],
+            "cancellation_terms": [
+                {
+                    "cancel_by": {
+                        "duration": "PT24H"
+                    },
+                    "cancellation_fee": {
+                        "percentage": "10"
+                    }
+                }
+            ],
+            "quote": {
+                "price": {
+                    "currency": "INR",
+                    "value": "0"
+                },
+                "breakup": [
+                    {
+                        "title": "BASE_FARE",
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
+                        }
+                    },
+                    {
+                        "title": "CGST",
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
+                        }
+                    },
+                    {
+                        "title": "SGST",
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
+                        }
+                    }
+                ]
+            },
+            "payments": [
+                {
+                    "id": "P1",
+                    "collected_by": "BPP",
+                    "status": "PENDING",
+                    "type": "UPI",
+                    "params": {
+                        "bank_code": "HDFC",
+                        "bank_account_number": "40XXXXXXXXX45",
+                        "virtual_payment_address": "user@upi"
+                    },
+                    "tags": [
+                        {
+                            "descriptor": {
+                                "name": null,
+                                "code": "PAYMENT_METHOD",
+                                "images": null
+                            },
+                            "list": [
+                                {
+                                    "descriptor": {
+                                        "name": null,
+                                        "code": "UPI",
+                                        "images": null
+                                    },
+                                    "value": "Paid via UPI"
+                                }
+                            ],
+                            "display": false
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
