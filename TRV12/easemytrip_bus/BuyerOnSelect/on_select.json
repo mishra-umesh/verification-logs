@@ -1,0 +1,141 @@
+{
+    "context": {
+        "location": {
+            "country": {
+                "code": "IND"
+            },
+            "city": null,
+            "descriptor": null,
+            "gps": null
+        },
+        "domain": "ONDC:TRV12",
+        "timestamp": "2025-02-14T09:32:51.057796Z",
+        "bap_id": "ondc.easemytrip.com/bus",
+        "bap_uri": "https://ondc.easemytrip.com/busservice/api/Buyer/",
+        "bpp_id": "ondc.easemytrip.com/bus",
+        "bpp_uri": "https://ondc.easemytrip.com/bus",
+        "transaction_id": "c44a8347-fd10-4754-9510-c5f8757732e0",
+        "message_id": "18bdcd7a-0cb7-4ce7-a8dc-78926e5d6a51",
+        "version": "2.0.0",
+        "action": "on_select",
+        "ttl": "PT30S"
+    },
+    "message": {
+        "order": {
+            "items": [
+                {
+                    "id": "SU6",
+                    "descriptor": null,
+                    "price": null,
+                    "quantity": {
+                        "selected": {
+                            "count": 1
+                        }
+                    },
+                    "fulfillment_ids": null,
+                    "category_ids": null
+                }
+            ],
+            "provider": {
+                "id": "17",
+                "descriptor": null
+            },
+            "fulfillments": [
+                {
+                    "id": "1290",
+                    "type": null,
+                    "stops": [
+                        {
+                            "id": "1475",
+                            "type": "PICKUP",
+                            "location": null,
+                            "time": null
+                        },
+                        {
+                            "id": "531",
+                            "type": "DROP",
+                            "location": null,
+                            "time": null
+                        }
+                    ],
+                    "vehicle": null,
+                    "tags": [
+                        {
+                            "descriptor": {
+                                "name": null,
+                                "code": "SEAT_GRID",
+                                "images": null
+                            },
+                            "list": [
+                                {
+                                    "descriptor": {
+                                        "name": null,
+                                        "code": "NUMBER",
+                                        "images": null
+                                    },
+                                    "value": "SU6"
+                                },
+                                {
+                                    "descriptor": {
+                                        "name": null,
+                                        "code": "SELECTED",
+                                        "images": null
+                                    },
+                                    "value": "true"
+                                },
+                                {
+                                    "descriptor": {
+                                        "name": null,
+                                        "code": "ITEM_ID",
+                                        "images": null
+                                    },
+                                    "value": "SU6"
+                                },
+                                {
+                                    "descriptor": {
+                                        "name": null,
+                                        "code": "Fare",
+                                        "images": null
+                                    },
+                                    "value": "2256"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "quote": {
+                "price": {
+                    "currency": "INR",
+                    "value": "2256"
+                },
+                "breakup": [
+                    {
+                        "title": "BASE_FARE",
+                        "price": {
+                            "currency": "INR",
+                            "value": "2149"
+                        },
+                        "item": null
+                    },
+                    {
+                        "title": "CGST",
+                        "price": {
+                            "currency": "INR",
+                            "value": "54"
+                        },
+                        "item": null
+                    },
+                    {
+                        "title": "SGST",
+                        "price": {
+                            "currency": "INR",
+                            "value": "54"
+                        },
+                        "item": null
+                    }
+                ]
+            }
+        }
+    }
+}
